@@ -1,5 +1,5 @@
+#include <stdio.h>
 
- #include <stdio.h>
 int main() {
     int i = 1 ,j= 1;
     for (i = 1; i < 10; i++) {
@@ -9,6 +9,5 @@ int main() {
         }
         printf("\n");
     }
-
 }
 
