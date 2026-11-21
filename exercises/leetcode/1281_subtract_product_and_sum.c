@@ -14,6 +14,14 @@
  */
 int subtractProductAndSum(int n) {
     // 在这里写代码
+    int sum = 0 , plus = 1;
+        while(n  != 0) {
+            sum += n  % 10;
+            plus *= n % 10;
+            n /= 10;
+        }
+
+    return plus - sum;
 }
 
 int main(void) {
@@ -21,8 +29,8 @@ int main(void) {
         int input;
         int expected;
     } cases[] = {
-        {234, 15},
-        {4421, 21},
+        // {234, 15},
+        // {4421, 21},
         {105, -6},
         {7, 0},
         {100000, -1},

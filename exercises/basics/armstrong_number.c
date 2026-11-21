@@ -12,6 +12,15 @@
  */
 int isArmstrongNumber(int n) {
     // 在这里写代码
+    int a = n % 10;
+    int b = (n / 10) % 10;
+    int c = n / 100;
+    printf("%d,%d %d\n", a ,b ,c);
+    if ((a * a * a + b * b * b + c * c * c )== n) {
+        return 1;
+    }else {
+        return 0;
+    }
     return 0;
 }
 
