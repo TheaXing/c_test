@@ -37,3 +37,9 @@ add_exercise(valid_palindrome exercises/03_strings/125_valid_palindrome.c)
 add_exercise(my_string_ops exercises/03_strings/my_string_ops.c)
 
 # 04_pointers_structs: 指针与结构体
+add_exercise(swap_and_sort3 exercises/04_pointers_structs/swap_and_sort3.c)
+add_exercise(find_element exercises/04_pointers_structs/find_element.c)
+add_exercise(fn_ptr_calculator exercises/04_pointers_structs/fn_ptr_calculator.c)
+add_exercise(array_callback exercises/04_pointers_structs/array_callback.c)
+add_exercise(positional_pid exercises/04_pointers_structs/positional_pid.c)
+add_exercise(singly_linked_list exercises/04_pointers_structs/singly_linked_list.c)

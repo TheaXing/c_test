@@ -31,4 +31,9 @@
 
 ## 04. 指针与结构体（`exercises/04_pointers_structs/`）
 
-_待添加_
+- [ ] [指针交换与三数排序](exercises/04_pointers_structs/swap_and_sort3.c)
+- [ ] [查找数组元素并返回指针](exercises/04_pointers_structs/find_element.c)
+- [ ] [函数指针计算器](exercises/04_pointers_structs/fn_ptr_calculator.c)
+- [ ] [通用数组回调](exercises/04_pointers_structs/array_callback.c)
+- [ ] [位置式 PID 控制器](exercises/04_pointers_structs/positional_pid.c)
+- [ ] [手写单链表](exercises/04_pointers_structs/singly_linked_list.c)
